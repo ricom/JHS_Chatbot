@@ -83,7 +83,7 @@ export default{
              newItem.userSay=inputMessage
              dialogUserAndBot[length]=newItem
              this.$data.message=''  //clean message
-             keyWordCount=0 //clean 
+             keyWordCount=0 //clean count
             
         },
 
