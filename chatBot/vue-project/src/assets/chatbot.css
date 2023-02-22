@@ -1,0 +1,77 @@
+
+#mainChatBot{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+.headerClass{
+
+    background-color:#DC0612!important;
+    border-radius: 10px 10px 0px 0px !important;
+}
+#context{
+    width: 400px;
+    height: 470px;
+    overflow-x: hidden;  
+    background-color:#f9f2ec;
+    
+}
+.headerClass img{
+   
+    width:45px;
+    height: 45px;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+.headerClass span{
+    color: white;
+    font-weight: 600;
+    position: relative;
+    bottom: 5px;
+}
+
+
+#text{
+    width: 350px;
+    height: 35px;
+    position: absolute;
+    left: -26px;
+    bottom: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px solid ;
+    padding-right: 40px;
+}
+#icon{
+    position: relative;
+    left: 290px;
+    bottom: 11px;
+    font-size: 20px;
+    
+}
+.changeBackground5{
+    color: #DC0612 !important;
+}
+.marginMore{
+    margin-bottom: 19px !important;
+}
+#sendArea{
+    position: relative;
+    top: 15px;
+}
+.ivu-layout-footer{
+background-color: #f9f2ec !important;
+border-radius:0px 0px 10px 10px !important;
+}
+.ivu-layout{
+    background-color: white !important;
+    width: 0px !important;
+}
+#footer{
+    height: 80px;
+}
