@@ -49,6 +49,7 @@ export default{
                             but if the user enters the user is empty, the user's div will be hidden
             */
              var containKeyWords=false;
+             var keyWordCount=0
              var newItem={}
              var dialogUserAndBot=this.$data.items
              var length=dialogUserAndBot.length
@@ -58,12 +59,21 @@ export default{
                 //Regular Expression,with i is ignore capitalization
                 var containKey = new RegExp(item.key,'i');
 
-                if(containKey.test(inputMessage)){
+                if(containKey.test(inputMessage)&&keyWordCount<1){
 
+                    keyWordCount++;
                     containKeyWords=true
                     newItem.botSay=item.value+''
 
                 }
+
+                else if(containKey.test(inputMessage)&&keyWordCount>=1){
+
+                  keyWordCount++;
+                  newItem.botSay="I'm sorry, please don't ask too much at once, Yui's cpu is about to explode"
+                
+                }
+              
              })
 
              if(containKeyWords==false){
@@ -73,6 +83,7 @@ export default{
              newItem.userSay=inputMessage
              dialogUserAndBot[length]=newItem
              this.$data.message=''  //clean message
+             keyWordCount=0 //clean 
             
         },
 
