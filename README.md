@@ -14,10 +14,8 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Important Plugins
 
 * The most Important Plugins：[i-View-Komponentenbibliothek](https://www.iviewui.com/view-ui-plus/component/navigation/menu)
-* Crash-Kurs:
-I haven't found a simple and easy-to-understand Crash course video for the time being. It is recommended to take a look at the quick start on the official website and the Steps I will write next.
 * [Quick start](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)
-* Create a new VUE.JS project
+
 
 ## Step to start this project
 
