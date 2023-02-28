@@ -27,7 +27,6 @@ Please go to the official website of node.js to download the latest LTS. Don't f
 
 Configuration options: Except for 'Add Vue Router for Single Page Application development? ', other configuration options are no. After the configuration is successful, please enter the following commands in sequence: 
   *--cd vue-project
-  *--npm install
  
 
 **Step 2: run your website**
