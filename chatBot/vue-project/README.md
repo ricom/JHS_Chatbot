@@ -12,18 +12,25 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
-```sh
+
 npm install
+```
+###
+
+ you should use the cd command to get to the root directory,before run the project.
+
+```
+cd <your project>
 ```
 
 ### Compile and Hot-Reload for Development
 
-```sh
+```
 npm run dev
 ```
 
 ### Compile and Minify for Production
 
-```sh
+```
 npm run build
 ```
