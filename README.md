@@ -23,13 +23,14 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 **Step 1: Configuration options**
 
 Configuration options: Except for 'Add Vue Router for Single Page Application development? ', other configuration options are no. After the configuration is successful, please enter the following commands in sequence: 
-  **--cd vue-project**
-  **--npm install**
-  **--npm run dev**
+  *--cd vue-project
+  *--npm install
+  *--npm run dev
 
 **Step 2: run your website**
 
-At this point, your VUE.JS project has been successfully built. At this time, you can view your page through code **npm run dev**(Enter this line of code in Terminal)
+At this point, your VUE.JS project has been successfully built. At this time, you can view your page through code 
+*npm run dev(Enter this line of code in Terminal)
 
 
 
