@@ -19,17 +19,20 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Step to start this project
 
+**Step 0: Node.js installation**
+
+Please go to the official website of node.js to download the latest LTS. Don't forget to restart your computer after successfully installing node.js! ! !
 
 **Step 1: Configuration options**
 
 Configuration options: Except for 'Add Vue Router for Single Page Application development? ', other configuration options are no. After the configuration is successful, please enter the following commands in sequence: 
   *--cd vue-project
   *--npm install
-  *--npm run dev
+ 
 
 **Step 2: run your website**
 
-At this point, your VUE.JS project has been successfully built. At this time, you can view your page through code 
+At this point, your VUE.JS project has been successfully built. At this time, you can view your page through code: 
 *npm run dev(Enter this line of code in Terminal)
 
 
