@@ -1,8 +1,8 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import chatbot from '../components/chatbot.vue'
 </script>
 <template>
   <main>
-    <TheWelcome />
+    <chatbot />
   </main>
 </template>
